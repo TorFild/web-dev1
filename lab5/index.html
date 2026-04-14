@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна робота 5</title>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Менеджмент та адміністрування</h1>
+      <nav>
+        <ul class="navigation">
+          <li><a href="./index.html">Головна</a></li>
+          <li><a href="./group.html">Розробники</a></li>
+          <li><a href="./competencies.html">Компетенції</a></li>
+          <li><a href="./components.html">Компоненти</a></li>
+          <li><a href="./graph.html">Схема</a></li>
+          <li><a href="./reports.html">Звіти</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <p class="subtitle">Рівень вищої освіти: (Другий магістерський)</p>
+      <p class="subtitle">Галузь знань: D Бізнес, адміністрування та право</p>
+      <p class="subtitle">Спеціальність: D3 Менеджмент</p>
+      <h2 id="goal">Мета освітньої програми</h2>
+      <p>
+        Підготувати висококваліфікованих фахівців за спеціальністю «Менеджмент»,
+        здатних аналізувати та оцінювати середовище підприємства, готових
+        приймати ефективні управлінські рішення в умовах невизначеності,
+        спроможних покращувати діяльність підприємств і конкурувати на
+        внутрішньому та міжнародному ринках праці.
+      </p>
+      <h2>Профіль освітньої програми</h2>
+      <div class="frame-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://drive.google.com/file/d/1D1OMVXMtH8C-GkZPl3z-Wg4hA39cqh4q/preview"
+          description="Профіль освітньої програми"
+        ></iframe>
+      </div>
+      <div class="frame-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/W-4Zc2XaUl4?si=Xk_1GI2qddevMyhK"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h2>Форма для анонімного відгуку</h2>
+      <div class="form-container">
+        <form id="feedbackForm" method="POST">
+          <p>
+            <input type="text" name="subject" required placeholder="Предмет" />
+          </p>
+
+          <p>
+            <input
+              type="number"
+              name="rating"
+              min="1"
+              max="5"
+              required
+              placeholder="Оцінка (1-5)"
+            />
+          </p>
+
+          <p>
+            <textarea
+              name="feedback"
+              id="feedbackText"
+              required
+              placeholder="Текст відгуку "
+            ></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Надіслати</button>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Тімур Джабар © ІФНТУНГ, 2026 р.</p>
+    </footer>
+  </body>
+</html>
